@@ -7,7 +7,7 @@ export class RentalList extends React.Component {
     return this.props.rentals.map((rental, index) => {
       return (
           <RentalCard key={index}
-                      colNum="col-md-2 col-xs-6 my-3"
+                      colNum="col-lg-4 col-xl-2 col-md-6 col-sm-6 my-3"
                       rental={rental}/>
         )
     });

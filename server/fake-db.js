@@ -3,7 +3,6 @@ const Rental = require('./models/rental');
 class FakeDb {
     constructor(){
         this.rentals = [{
-                    id: "1",
                     title: "Central Apartment",
                     city: "New York",
                     street: "Times Sqaure",
@@ -15,7 +14,6 @@ class FakeDb {
                     shared: false
                 },
                 {
-                    id: "2",
                     title: "Central Apartment 2",
                     city: "San Francisco",
                     street: "Main street",
@@ -27,7 +25,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "3",
                     title: "Central Apartment 3",
                     city: "Bratislava",
                     street: "Hlavna",
@@ -39,7 +36,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "4",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -51,7 +47,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "5",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -63,7 +58,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "6",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -75,7 +69,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "7",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -87,7 +80,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "8",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -99,7 +91,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "9",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -111,7 +102,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "10",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -123,7 +113,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "11",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
@@ -135,7 +124,6 @@ class FakeDb {
                     shared: true
                 },
                 {
-                    id: "12",
                     title: "Central Apartment 4",
                     city: "Berlin",
                     street: "Haupt strasse",
